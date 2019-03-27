@@ -1,0 +1,39 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\g1e2a\\Documents\\Androidstudio\\Password_Generator\\android\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-v23\\values-v23.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\g1e2a\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.2.aar\\e0030206460a2b7ed617ebd13abecbb2\\res\\values-v23\\values-v23.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,19,32,33,34,35,36",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,190,325,400,487,1277,2079,2206,2311,2426,2533",
+                        "endLines": "2,3,4,5,18,31,32,33,34,35,36",
+                        "endColumns": "134,134,74,86,12,12,126,104,114,106,112",
+                        "endOffsets": "185,320,395,482,1272,2074,2201,2306,2421,2528,2641"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\g1e2a\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.1.0.aar\\825cfd9f5b6dc032b0a3475a27253ce4\\res\\values-v23\\values.xml",
+                    "from": {
+                        "startLines": "4,8,12,20,23",
+                        "startColumns": "0,0,0,0,0",
+                        "startOffsets": "211,373,537,938,1079",
+                        "endLines": "7,11,19,22,24",
+                        "endColumns": "8,8,8,8,8",
+                        "endOffsets": "372,536,937,1078,1178"
+                    },
+                    "to": {
+                        "startLines": "37,41,45,53,56",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "2646,2812,2980,3385,3530",
+                        "endLines": "40,44,52,55,57",
+                        "endColumns": "8,8,8,8,8",
+                        "endOffsets": "2807,2975,3380,3525,3629"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,183 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\g1e2a\Documents\Androidstudio\Password_Generator\android\app\src\main\AndroidManifest.xml:2:1-17:12
+INJECTED from C:\Users\g1e2a\Documents\Androidstudio\Password_Generator\android\app\src\main\AndroidManifest.xml:2:1-17:12
+INJECTED from C:\Users\g1e2a\Documents\Androidstudio\Password_Generator\android\app\src\main\AndroidManifest.xml:2:1-17:12
+INJECTED from C:\Users\g1e2a\Documents\Androidstudio\Password_Generator\android\app\src\main\AndroidManifest.xml:2:1-17:12
+MERGED from [com.android.support:design:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\design-26.0.2.aar\ac88017a54043c7ecd8de706b3eef420\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.2.aar\e0030206460a2b7ed617ebd13abecbb2\AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.support:wearable:2.1.0] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\wearable-2.1.0.aar\825cfd9f5b6dc032b0a3475a27253ce4\AndroidManifest.xml:2:1-15:12
+MERGED from [com.android.support:animated-vector-drawable:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.2.aar\5fdd33d37ecc6deba7e33c993d8e38dc\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.2.aar\9c364e0f3e0f3b94a3c4b85921b11ac2\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:recyclerview-v7:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.2.aar\327fe90e51ca7ea2625bdeac99b72536\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:transition:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\transition-26.0.2.aar\bb47655842ef80329e8e72ca62723b1d\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.2.aar\4ed559cca7256bc30a21bac48fe782a0\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:percent:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\percent-26.0.2.aar\ccc2801aabacc64ab04213ff0dca287d\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-media-compat:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.2.aar\6fc6b0653204db45f8e88f8cbd4d881e\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.2.aar\a613e57c8f430c8aa7e0c557f14fc0cf\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.2.aar\d80523595038d1597518cb8052ed5601\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.2.aar\d32ab485cf4ce8d1e887068a3c933911\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.2.aar\f158587dd530ec1a47770e796ac74e12\AndroidManifest.xml:17:1-31:12
+INJECTED from C:\Users\g1e2a\Documents\Androidstudio\Password_Generator\android\app\src\main\AndroidManifest.xml:2:1-17:12
+INJECTED from C:\Users\g1e2a\Documents\Androidstudio\Password_Generator\android\app\src\main\AndroidManifest.xml:2:1-17:12
+INJECTED from C:\Users\g1e2a\Documents\Androidstudio\Password_Generator\android\app\src\main\AndroidManifest.xml:2:1-17:12
+	package
+		ADDED from C:\Users\g1e2a\Documents\Androidstudio\Password_Generator\android\app\src\main\AndroidManifest.xml:2:120-148
+		INJECTED from C:\Users\g1e2a\Documents\Androidstudio\Password_Generator\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\g1e2a\Documents\Androidstudio\Password_Generator\android\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\g1e2a\Documents\Androidstudio\Password_Generator\android\app\src\main\AndroidManifest.xml:2:94-119
+		INJECTED from C:\Users\g1e2a\Documents\Androidstudio\Password_Generator\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\g1e2a\Documents\Androidstudio\Password_Generator\android\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\g1e2a\Documents\Androidstudio\Password_Generator\android\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from C:\Users\g1e2a\Documents\Androidstudio\Password_Generator\android\app\src\main\AndroidManifest.xml:2:70-93
+		INJECTED from C:\Users\g1e2a\Documents\Androidstudio\Password_Generator\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\g1e2a\Documents\Androidstudio\Password_Generator\android\app\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from C:\Users\g1e2a\Documents\Androidstudio\Password_Generator\android\app\src\main\AndroidManifest.xml:3:5-73
+INJECTED from C:\Users\g1e2a\Documents\Androidstudio\Password_Generator\android\app\src\main\AndroidManifest.xml:3:5-73
+INJECTED from C:\Users\g1e2a\Documents\Androidstudio\Password_Generator\android\app\src\main\AndroidManifest.xml:3:5-73
+MERGED from [com.android.support:design:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\design-26.0.2.aar\ac88017a54043c7ecd8de706b3eef420\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\design-26.0.2.aar\ac88017a54043c7ecd8de706b3eef420\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.2.aar\e0030206460a2b7ed617ebd13abecbb2\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.2.aar\e0030206460a2b7ed617ebd13abecbb2\AndroidManifest.xml:21:5-23:78
+MERGED from [com.google.android.support:wearable:2.1.0] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\wearable-2.1.0.aar\825cfd9f5b6dc032b0a3475a27253ce4\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.support:wearable:2.1.0] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\wearable-2.1.0.aar\825cfd9f5b6dc032b0a3475a27253ce4\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.2.aar\5fdd33d37ecc6deba7e33c993d8e38dc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.2.aar\5fdd33d37ecc6deba7e33c993d8e38dc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.2.aar\9c364e0f3e0f3b94a3c4b85921b11ac2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.2.aar\9c364e0f3e0f3b94a3c4b85921b11ac2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.2.aar\327fe90e51ca7ea2625bdeac99b72536\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.2.aar\327fe90e51ca7ea2625bdeac99b72536\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\transition-26.0.2.aar\bb47655842ef80329e8e72ca62723b1d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\transition-26.0.2.aar\bb47655842ef80329e8e72ca62723b1d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.2.aar\4ed559cca7256bc30a21bac48fe782a0\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.2.aar\4ed559cca7256bc30a21bac48fe782a0\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:percent:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\percent-26.0.2.aar\ccc2801aabacc64ab04213ff0dca287d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:percent:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\percent-26.0.2.aar\ccc2801aabacc64ab04213ff0dca287d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.2.aar\6fc6b0653204db45f8e88f8cbd4d881e\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.2.aar\6fc6b0653204db45f8e88f8cbd4d881e\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.2.aar\a613e57c8f430c8aa7e0c557f14fc0cf\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.2.aar\a613e57c8f430c8aa7e0c557f14fc0cf\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.2.aar\d80523595038d1597518cb8052ed5601\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.2.aar\d80523595038d1597518cb8052ed5601\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.2.aar\d32ab485cf4ce8d1e887068a3c933911\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.2.aar\d32ab485cf4ce8d1e887068a3c933911\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.2.aar\f158587dd530ec1a47770e796ac74e12\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.2.aar\f158587dd530ec1a47770e796ac74e12\AndroidManifest.xml:21:5-23:58
+INJECTED from C:\Users\g1e2a\Documents\Androidstudio\Password_Generator\android\app\src\main\AndroidManifest.xml:3:5-73
+INJECTED from C:\Users\g1e2a\Documents\Androidstudio\Password_Generator\android\app\src\main\AndroidManifest.xml:3:5-73
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\design-26.0.2.aar\ac88017a54043c7ecd8de706b3eef420\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		ADDED from C:\Users\g1e2a\Documents\Androidstudio\Password_Generator\android\app\src\main\AndroidManifest.xml:3:42-71
+		INJECTED from C:\Users\g1e2a\Documents\Androidstudio\Password_Generator\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\g1e2a\Documents\Androidstudio\Password_Generator\android\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Users\g1e2a\Documents\Androidstudio\Password_Generator\android\app\src\main\AndroidManifest.xml:3:15-41
+		INJECTED from C:\Users\g1e2a\Documents\Androidstudio\Password_Generator\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\g1e2a\Documents\Androidstudio\Password_Generator\android\app\src\main\AndroidManifest.xml
+application
+ADDED from C:\Users\g1e2a\Documents\Androidstudio\Password_Generator\android\app\src\main\AndroidManifest.xml:4:5-16:19
+MERGED from [com.android.support:design:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\design-26.0.2.aar\ac88017a54043c7ecd8de706b3eef420\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\design-26.0.2.aar\ac88017a54043c7ecd8de706b3eef420\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.2.aar\e0030206460a2b7ed617ebd13abecbb2\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.2.aar\e0030206460a2b7ed617ebd13abecbb2\AndroidManifest.xml:25:5-29:19
+MERGED from [com.google.android.support:wearable:2.1.0] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\wearable-2.1.0.aar\825cfd9f5b6dc032b0a3475a27253ce4\AndroidManifest.xml:9:5-13:19
+MERGED from [com.google.android.support:wearable:2.1.0] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\wearable-2.1.0.aar\825cfd9f5b6dc032b0a3475a27253ce4\AndroidManifest.xml:9:5-13:19
+MERGED from [com.android.support:animated-vector-drawable:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.2.aar\5fdd33d37ecc6deba7e33c993d8e38dc\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.2.aar\5fdd33d37ecc6deba7e33c993d8e38dc\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.2.aar\9c364e0f3e0f3b94a3c4b85921b11ac2\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.2.aar\9c364e0f3e0f3b94a3c4b85921b11ac2\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.2.aar\327fe90e51ca7ea2625bdeac99b72536\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.2.aar\327fe90e51ca7ea2625bdeac99b72536\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\transition-26.0.2.aar\bb47655842ef80329e8e72ca62723b1d\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\transition-26.0.2.aar\bb47655842ef80329e8e72ca62723b1d\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.2.aar\4ed559cca7256bc30a21bac48fe782a0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.2.aar\4ed559cca7256bc30a21bac48fe782a0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:percent:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\percent-26.0.2.aar\ccc2801aabacc64ab04213ff0dca287d\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:percent:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\percent-26.0.2.aar\ccc2801aabacc64ab04213ff0dca287d\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-media-compat:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.2.aar\6fc6b0653204db45f8e88f8cbd4d881e\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.2.aar\6fc6b0653204db45f8e88f8cbd4d881e\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.2.aar\a613e57c8f430c8aa7e0c557f14fc0cf\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.2.aar\a613e57c8f430c8aa7e0c557f14fc0cf\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.2.aar\d80523595038d1597518cb8052ed5601\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.2.aar\d80523595038d1597518cb8052ed5601\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.2.aar\d32ab485cf4ce8d1e887068a3c933911\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.2.aar\d32ab485cf4ce8d1e887068a3c933911\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.2.aar\f158587dd530ec1a47770e796ac74e12\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.2.aar\f158587dd530ec1a47770e796ac74e12\AndroidManifest.xml:25:5-29:19
+	android:label
+		ADDED from C:\Users\g1e2a\Documents\Androidstudio\Password_Generator\android\app\src\main\AndroidManifest.xml:4:48-114
+	android:icon
+		ADDED from C:\Users\g1e2a\Documents\Androidstudio\Password_Generator\android\app\src\main\AndroidManifest.xml:4:18-47
+activity#processing.test.password_generator.MainActivity
+ADDED from C:\Users\g1e2a\Documents\Androidstudio\Password_Generator\android\app\src\main\AndroidManifest.xml:5:9-15:20
+	android:screenOrientation
+		ADDED from C:\Users\g1e2a\Documents\Androidstudio\Password_Generator\android\app\src\main\AndroidManifest.xml:5:19-55
+	android:theme
+		ADDED from C:\Users\g1e2a\Documents\Androidstudio\Password_Generator\android\app\src\main\AndroidManifest.xml:5:119-186
+	android:name
+		ADDED from C:\Users\g1e2a\Documents\Androidstudio\Password_Generator\android\app\src\main\AndroidManifest.xml:5:56-118
+intent-filter#android.intent.action.MAIN+android.intent.action.VIEW+android.intent.category.LAUNCHER
+ADDED from C:\Users\g1e2a\Documents\Androidstudio\Password_Generator\android\app\src\main\AndroidManifest.xml:6:13-10:29
+action#android.intent.action.VIEW
+ADDED from C:\Users\g1e2a\Documents\Androidstudio\Password_Generator\android\app\src\main\AndroidManifest.xml:7:17-69
+	android:name
+		ADDED from C:\Users\g1e2a\Documents\Androidstudio\Password_Generator\android\app\src\main\AndroidManifest.xml:7:25-66
+action#android.intent.action.MAIN
+ADDED from C:\Users\g1e2a\Documents\Androidstudio\Password_Generator\android\app\src\main\AndroidManifest.xml:8:17-68
+	android:name
+		ADDED from C:\Users\g1e2a\Documents\Androidstudio\Password_Generator\android\app\src\main\AndroidManifest.xml:8:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\g1e2a\Documents\Androidstudio\Password_Generator\android\app\src\main\AndroidManifest.xml:9:17-76
+	android:name
+		ADDED from C:\Users\g1e2a\Documents\Androidstudio\Password_Generator\android\app\src\main\AndroidManifest.xml:9:27-74
+intent-filter#android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from C:\Users\g1e2a\Documents\Androidstudio\Password_Generator\android\app\src\main\AndroidManifest.xml:11:13-14:29
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\g1e2a\Documents\Androidstudio\Password_Generator\android\app\src\main\AndroidManifest.xml:12:17-76
+	android:name
+		ADDED from C:\Users\g1e2a\Documents\Androidstudio\Password_Generator\android\app\src\main\AndroidManifest.xml:12:27-73
+category#android.intent.category.BROWSABLE
+ADDED from C:\Users\g1e2a\Documents\Androidstudio\Password_Generator\android\app\src\main\AndroidManifest.xml:13:17-78
+	android:name
+		ADDED from C:\Users\g1e2a\Documents\Androidstudio\Password_Generator\android\app\src\main\AndroidManifest.xml:13:27-75
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\design-26.0.2.aar\ac88017a54043c7ecd8de706b3eef420\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.2.aar\e0030206460a2b7ed617ebd13abecbb2\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.2.aar\e0030206460a2b7ed617ebd13abecbb2\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.2.aar\5fdd33d37ecc6deba7e33c993d8e38dc\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.2.aar\5fdd33d37ecc6deba7e33c993d8e38dc\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.2.aar\9c364e0f3e0f3b94a3c4b85921b11ac2\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.2.aar\9c364e0f3e0f3b94a3c4b85921b11ac2\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.2.aar\327fe90e51ca7ea2625bdeac99b72536\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.2.aar\327fe90e51ca7ea2625bdeac99b72536\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\transition-26.0.2.aar\bb47655842ef80329e8e72ca62723b1d\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\transition-26.0.2.aar\bb47655842ef80329e8e72ca62723b1d\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.2.aar\4ed559cca7256bc30a21bac48fe782a0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.2.aar\4ed559cca7256bc30a21bac48fe782a0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:percent:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\percent-26.0.2.aar\ccc2801aabacc64ab04213ff0dca287d\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:percent:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\percent-26.0.2.aar\ccc2801aabacc64ab04213ff0dca287d\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-media-compat:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.2.aar\6fc6b0653204db45f8e88f8cbd4d881e\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.2.aar\6fc6b0653204db45f8e88f8cbd4d881e\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.2.aar\a613e57c8f430c8aa7e0c557f14fc0cf\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.2.aar\a613e57c8f430c8aa7e0c557f14fc0cf\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.2.aar\d80523595038d1597518cb8052ed5601\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.2.aar\d80523595038d1597518cb8052ed5601\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.2.aar\d32ab485cf4ce8d1e887068a3c933911\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.2.aar\d32ab485cf4ce8d1e887068a3c933911\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.2.aar\f158587dd530ec1a47770e796ac74e12\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.2.aar\f158587dd530ec1a47770e796ac74e12\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:design:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\design-26.0.2.aar\ac88017a54043c7ecd8de706b3eef420\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:design:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\design-26.0.2.aar\ac88017a54043c7ecd8de706b3eef420\AndroidManifest.xml:27:13-51
+uses-library#com.google.android.wearable
+ADDED from [com.google.android.support:wearable:2.1.0] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\wearable-2.1.0.aar\825cfd9f5b6dc032b0a3475a27253ce4\AndroidManifest.xml:10:9-12:40
+	android:required
+		ADDED from [com.google.android.support:wearable:2.1.0] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\wearable-2.1.0.aar\825cfd9f5b6dc032b0a3475a27253ce4\AndroidManifest.xml:12:13-37
+	android:name
+		ADDED from [com.google.android.support:wearable:2.1.0] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\wearable-2.1.0.aar\825cfd9f5b6dc032b0a3475a27253ce4\AndroidManifest.xml:11:13-55
