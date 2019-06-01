@@ -42,9 +42,22 @@ public class password_generator extends PApplet {
 
     //===============================
 
-    //Added in v1.8=================
+    //Added in v1.12=================
 
-    int ButtonSwitch=1;
+
+    int getSwitch(){
+        String x;
+        int y;
+        x=MainActivity.state;
+        y=Integer.parseInt(x);
+        return y;
+    }
+
+    int ButtonSwitch=getSwitch();
+
+    void setSwitch(){
+        MainActivity.state=Integer.toString(ButtonSwitch);
+    }
 
     //==============================
 
@@ -99,8 +112,9 @@ public class password_generator extends PApplet {
             if(menuOpened==0){
                 if(mousePressed&&mouseX>=0.14*width+0.3*width-0.24*width&&mouseX<=0.14*width+0.3*width-0.24*width+0.24*width+0.24*width&&mouseY>=height-0.12*height&&mouseY<=height-0.12*height+0.08*height)
                     level=10;
-                delay(100);
+                delay(20);
             }
+            if(custm.size()>0)
             custm.clear();
 
             //===================================================================================
@@ -256,7 +270,7 @@ public class password_generator extends PApplet {
             if(menuOpened==0) {
                 if (mousePressed && mouseX >= 0.14 * width && mouseX <= 0.14 * width + 0.24 * width && mouseY >= height - 0.12 * height && mouseY <= height - 0.12 * height + 0.08 * height)
                     level = 0;
-                delay(100);
+                    delay(20);
             }
             textSize(textsize);
 
@@ -279,7 +293,7 @@ public class password_generator extends PApplet {
                 textAlign(CENTER,CENTER);
                 text("Cannot Untoggle",width/2,height/2-0.4f*height);
                 text("All Types",width/2,height/2-0.34f*height);
-                delay(000);
+                delay(20);
 
             }
 
@@ -288,7 +302,7 @@ public class password_generator extends PApplet {
                 textAlign(CENTER,CENTER);
                 text("Press Any Button",width/2,height/2-0.4f*height);
                 text("To Untoggle",width/2,height/2-0.34f*height);
-                delay(000);
+                delay(20);
             }
 
             if(mousePressed&&toggle==1){
@@ -404,7 +418,7 @@ public class password_generator extends PApplet {
             if(mousePressed&&mouseX>=width/2-0.2*width&&mouseX<=width/2+0.2*width&&mouseY>=height/2-0.24*height&&mouseY<=height/2-0.14*height&&switch0==0){
                 switch0=1;
                 /**Added in 1.3*/         Mswitch0=1;
-                delay(100);
+                delay(20);
             }
             else if(mousePressed&&mouseX>=width/2-0.2*width&&mouseX<=width/2+0.2*width&&mouseY>=height/2-0.24*height&&mouseY<=height/2-0.14*height&&switch0==1) {
                 switch0 = 0;
@@ -414,7 +428,7 @@ public class password_generator extends PApplet {
                     SwitchesUp[a] = 0;
                 }
                 //=============================
-                delay(100);
+                delay(20);
                  }
             }
 
@@ -446,7 +460,7 @@ public class password_generator extends PApplet {
             if(mousePressed&&mouseX>=width/2-0.2*width&&mouseX<=width/2+0.2*width&&mouseY>=height/2-0.1*height&&mouseY<=height/2-0.1*height+0.1*height&&switch1==0){
                 switch1=1;
                 /**Added in 1.3*/        Mswitch1=1;
-                delay(100);
+                delay(20);
             }
             else if(mousePressed&&mouseX>=width/2-0.2*width&&mouseX<=width/2+0.2*width&&mouseY>=height/2-0.1*height&&mouseY<=height/2&&switch1==1) {
                 switch1 = 0;
@@ -456,7 +470,7 @@ public class password_generator extends PApplet {
                     SwitchesUp1[a] = 0;
                 }
                 //===============================
-                delay(100);
+                delay(20);
                 }
             }
 
@@ -487,7 +501,7 @@ public class password_generator extends PApplet {
             if(mousePressed&&mouseX>=width/2-0.2*width&&mouseX<=width/2+0.2*width&&mouseY>=height/2+0.04*height&&mouseY<=height/2+0.04*height+0.1*height&&switch2==0){
                 switch2=1;
                 /**Added in 1.3*/        Mswitch2=1;
-                delay(100);
+                delay(20);
             }
             else if(mousePressed&&mouseX>=width/2-0.2*width&&mouseX<=width/2+0.2*width&&mouseY>=height/2+0.04*height&&mouseY<=height/2+0.04*height+0.1*height&&switch2==1) {
                 switch2 = 0;
@@ -497,7 +511,7 @@ public class password_generator extends PApplet {
                     SwitchesUp2[a] = 0;
                 }
                 //===============================
-                delay(100);
+                delay(20);
                 }
             }
 
@@ -529,7 +543,7 @@ public class password_generator extends PApplet {
             if(mousePressed&&mouseX>=width/2-0.2*width&&mouseX<=width/2+0.2*width&&mouseY>=height/2+0.18*height&&mouseY<=height/2+0.18*height+0.1*height&&switch3==0){
                 switch3=1;
                 /**Added in 1.3*/         Mswitch3=1;
-                delay(100);
+                delay(20);
             }
             else if(mousePressed&&mouseX>=width/2-0.2*width&&mouseX<=width/2+0.2*width&&mouseY>=height/2+0.18*height&&mouseY<=height/2+0.18*height+0.1*height&&switch3==1) {
                 switch3 = 0;
@@ -538,7 +552,7 @@ public class password_generator extends PApplet {
                 for (int a = 0; a < 18; a++) {
                     SwitchesUp3[a] = 0;
                 }
-                delay(100);
+                delay(20);
                 }
             }
 
@@ -583,12 +597,12 @@ public class password_generator extends PApplet {
                         if(SwitchesUp[a]==0){
                             SwitchesUp[a]=1;
                             sum0++;
-                            delay(100);
+                            delay(20);
                         }
                         else{
                             sum0--;
                             SwitchesUp[a]=0;
-                            delay(100);
+                            delay(20);
                         }
                         break;
                     }
@@ -644,12 +658,12 @@ public class password_generator extends PApplet {
                         if(SwitchesUp1[a]==0){
                             SwitchesUp1[a]=1;
                             sum1++;
-                            delay(100);
+                            delay(20);
                         }
                         else{
                             sum1--;
                             SwitchesUp1[a]=0;
-                            delay(100);
+                            delay(20);
                         }
                         break;
                     }
@@ -705,12 +719,12 @@ public class password_generator extends PApplet {
                         if(SwitchesUp2[a]==0){
                             SwitchesUp2[a]=1;
                             sum2++;
-                            delay(100);
+                            delay(20);
                         }
                         else{
                             sum2--;
                             SwitchesUp2[a]=0;
-                            delay(100);
+                            delay(20);
                         }
                         break;
                     }
@@ -766,12 +780,12 @@ public class password_generator extends PApplet {
                         if(SwitchesUp3[a]==0){
                             SwitchesUp3[a]=1;
                             sum3++;
-                            delay(100);
+                            delay(20);
                         }
                         else{
                             sum3--;
                             SwitchesUp3[a]=0;
-                            delay(100);
+                            delay(20);
                         }
                         break;
                     }
@@ -866,12 +880,12 @@ public class password_generator extends PApplet {
 
             if(mousePressed&&mouseX>=width/2-0.2*width&&mouseX<=width/2+0.2*width&&mouseY>=height/2-0.1*height&&mouseY<=height/2&&ButtonSwitch==0){
                 ButtonSwitch=1;
-                delay(100);
+                delay(20);
             }
 
             else if(mousePressed&&mouseX>=width/2-0.2*width&&mouseX<=width/2+0.2*width&&mouseY>=height/2-0.1*height&&mouseY<=height/2&&ButtonSwitch==1){
                 ButtonSwitch=0;
-                delay(100);
+                delay(20);
             }
 
 
@@ -879,11 +893,11 @@ public class password_generator extends PApplet {
 
             if(mousePressed&&mouseX>=width/2-0.2*width&&mouseX<=width/2-0.2*width+0.4*width&&mouseY>=height/2-0.24*height&&mouseY<=height/2-0.24*height+0.1*height&&etcSwitch==0){
                 etcSwitch=1;
-                delay(100);
+                delay(20);
             }
             else if(mousePressed&&mouseX>=width/2-0.2*width&&mouseX<=width/2-0.2*width+0.4*width&&mouseY>=height/2-0.24*height&&mouseY<=height/2-0.24*height+0.1*height&&etcSwitch==1){
                 etcSwitch=0;
-                delay(100);
+                delay(20);
             }
 
             //Added in v1.9==================================================================
@@ -914,11 +928,11 @@ public class password_generator extends PApplet {
 
             if(mousePressed&&mouseX>=width/2-0.2*width&&mouseX<=width/2-0.2*width+0.4*width&&mouseY>=height/2+0.04*height&&mouseY<=height/2+0.04*height+0.1*height&&privacySwitch==0){
                 privacySwitch=1;
-                delay(100);
+                delay(20);
             }
             else if(mousePressed&&mouseX>=width/2-0.2*width&&mouseX<=width/2-0.2*width+0.4*width&&mouseY>=height/2+0.04*height&&mouseY<=height/2+0.04*height+0.1*height&&privacySwitch==1){
                 privacySwitch=0;
-                delay(100);
+                delay(20);
             }
 
         }
@@ -1295,7 +1309,7 @@ public class password_generator extends PApplet {
             if(mousePressed&&mouseX>=0.36*width&&mouseX<=0.48*width&&mouseY>=0.16*height&&mouseY<=0.24*height&&Mswitch0==0){
                 Mswitch0=1;
                 switch0=1;
-                delay(100);
+                delay(20);
             }
             else if(mousePressed&&mouseX>=0.36*width&&mouseX<=0.48*width&&mouseY>=0.16*height&&mouseY<=0.24*height&&Mswitch0==1){
                 //added in v1.11====
@@ -1306,7 +1320,7 @@ public class password_generator extends PApplet {
                 //==================
                 Mswitch0=0;
                 switch0=0;
-                delay(100);
+                delay(20);
             }
 
             if(Mswitch1==0){
@@ -1321,7 +1335,7 @@ public class password_generator extends PApplet {
             if(mousePressed&&mouseX>=0.36*width&&mouseX<=0.48*width&&mouseY>=0.24*height&&mouseY<=0.32*height&&Mswitch1==0){
                 Mswitch1=1;
                 switch1=1;
-                delay(100);
+                delay(20);
             }
             else if(mousePressed&&mouseX>=0.36*width&&mouseX<=0.48*width&&mouseY>=0.24*height&&mouseY<=0.32*height&&Mswitch1==1){
                 //added in v1.11====
@@ -1332,7 +1346,7 @@ public class password_generator extends PApplet {
                 //==================
                 Mswitch1=0;
                 switch1=0;
-                delay(100);
+                delay(20);
             }
 
             if(Mswitch2==0){
@@ -1347,7 +1361,7 @@ public class password_generator extends PApplet {
             if(mousePressed&&mouseX>=0.36*width&&mouseX<=0.48*width&&mouseY>=0.32*height&&mouseY<=0.4*height&&Mswitch2==0){
                 Mswitch2=1;
                 switch2=1;
-                delay(100);
+                delay(20);
             }
             else if(mousePressed&&mouseX>=0.36*width&&mouseX<=0.48*width&&mouseY>=0.32*height&&mouseY<=0.4*height&&Mswitch2==1){
                 //added in v1.11====
@@ -1358,7 +1372,7 @@ public class password_generator extends PApplet {
                 //==================
                 Mswitch2=0;
                 switch2=0;
-                delay(100);
+                delay(20);
             }
 
             if(Mswitch3==0){
@@ -1373,7 +1387,7 @@ public class password_generator extends PApplet {
             if(mousePressed&&mouseX>=0.36*width&&mouseX<=0.48*width&&mouseY>=0.4*height&&mouseY<=0.48*height&&Mswitch3==0){
                 Mswitch3=1;
                 switch3=1;
-                delay(100);
+                delay(20);
             }
             else if(mousePressed&&mouseX>=0.36*width&&mouseX<=0.48*width&&mouseY>=0.4*height&&mouseY<=0.48*height&&Mswitch3==1){
                 //added in v1.11====
@@ -1384,7 +1398,7 @@ public class password_generator extends PApplet {
                 //==================
                 Mswitch3=0;
                 switch3=0;
-                delay(100);
+                delay(20);
             }
 
             if(privacySwitch==0){
@@ -1398,11 +1412,11 @@ public class password_generator extends PApplet {
 
             if(mousePressed&&mouseX>=0.36*width&&mouseX<=0.48*width&&mouseY>=0.52*height&&mouseY<=0.6*height&&privacySwitch==0){
                 privacySwitch=1;
-                delay(100);
+                delay(20);
             }
             else if(mousePressed&&mouseX>=0.36*width&&mouseX<=0.48*width&&mouseY>=0.52*height&&mouseY<=0.6*height&&privacySwitch==1){
                 privacySwitch=0;
-                delay(100);
+                delay(20);
             }
 
             if(etcSwitch==0){
@@ -1416,11 +1430,11 @@ public class password_generator extends PApplet {
 
             if(mousePressed&&mouseX>=0.36*width&&mouseX<=0.48*width&&mouseY>=0.6*height&&mouseY<=0.68*height&&etcSwitch==0){
                 etcSwitch=1;
-                delay(100);
+                delay(20);
             }
             else if(mousePressed&&mouseX>=0.36*width&&mouseX<=0.48*width&&mouseY>=0.6*height&&mouseY<=0.68*height&&etcSwitch==1){
                 etcSwitch=0;
-                delay(100);
+                delay(20);
             }
         }
 
@@ -1432,13 +1446,13 @@ public class password_generator extends PApplet {
         if(mousePressed&&mouseX>=0&&mouseX<=0.13*width&&mouseY>=0&&mouseY<=0.13*height&&menuSwitch==1){
             menuSwitch=0;
             menuOpened=0;
-            delay(100);
+            delay(20);
         }
 
         else if(mousePressed&&mouseX>=0&&mouseX<=0.13*width&&mouseY>=0&&mouseY<=0.13*height&&menuSwitch==0){
             menuSwitch=1;
             menuOpened=1;
-            delay(100);
+            delay(20);
         }
     }
 
@@ -1450,24 +1464,29 @@ public class password_generator extends PApplet {
         int chk2=Nmbrs.length;
         int chk3=Smbls.length;
 
-        for(int x=0;x<UpLetters.length;x++){
-            if(SwitchesUp[x]==1)
-                chk0--;
-        }
+        if(mousePressed){
 
-        for(int x=0;x<DwnLetters.length;x++){
-            if(SwitchesUp1[x]==1)
-                chk1--;
-        }
+            setSwitch();
 
-        for(int x=0;x<Nmbrs.length;x++){
-            if(SwitchesUp2[x]==1)
-                chk2--;
-        }
+            for (int x = 0; x < UpLetters.length; x++) {
+                if (SwitchesUp[x] == 1)
+                    chk0--;
+            }
 
-        for(int x=0;x<Smbls.length;x++){
-            if(SwitchesUp3[x]==1)
-                chk3--;
+            for (int x = 0; x < DwnLetters.length; x++) {
+                if (SwitchesUp1[x] == 1)
+                    chk1--;
+            }
+
+            for (int x = 0; x < Nmbrs.length; x++) {
+                if (SwitchesUp2[x] == 1)
+                    chk2--;
+            }
+
+            for (int x = 0; x < Smbls.length; x++) {
+                if (SwitchesUp3[x] == 1)
+                    chk3--;
+            }
         }
 
         if(chk0==0){
@@ -1537,7 +1556,7 @@ public class password_generator extends PApplet {
         if(menuOpened==0){
             if(mousePressed&&mouseX>=0.14*width&&mouseX<=0.14*width+0.24*width&&mouseY>=height-0.12*height&&mouseY<=height-0.12*height+0.08*height)
                 level=0;
-            delay(100);
+            delay(20);
         }
         //=============================================================================
 
@@ -1625,7 +1644,7 @@ public class password_generator extends PApplet {
                     }
                     if(mouseX>=tplftX&&mouseX<=tplftX+0.12*width&&mouseY>=tplftY+0.12*height*counter1a&&mouseY<=tplftY+0.12*height*counter1a+0.12*height){
                         custm.add(a);
-                        delay(100);
+                        delay(20);
                     }
                 }
 
@@ -1637,7 +1656,7 @@ public class password_generator extends PApplet {
                 if(cstmSwitch==1)
                     if(mouseX>=tplftX&&mouseX<=tplftX+0.12*width&&mouseY>=tplftY+0.12*height*counter1a&&mouseY<=tplftY+0.12*height*counter1a+0.12*height){
                         custm.add(0);
-                        delay(100);
+                        delay(20);
                     }
 
                 float tplftX2=tplftX+0.04f*width+0.14f*width;

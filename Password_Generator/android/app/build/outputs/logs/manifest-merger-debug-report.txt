@@ -111,6 +111,8 @@ MERGED from [com.android.support:support-compat:26.0.2] C:\Users\g1e2a\.gradle\c
 MERGED from [com.android.support:support-compat:26.0.2] C:\Users\g1e2a\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.2.aar\f158587dd530ec1a47770e796ac74e12\AndroidManifest.xml:25:5-29:19
 	android:label
 		ADDED from C:\Users\g1e2a\Documents\Androidstudio\Password_Generator\android\app\src\main\AndroidManifest.xml:4:48-114
+	android:largeHeap
+		ADDED from C:\Users\g1e2a\Documents\Androidstudio\Password_Generator\android\app\src\main\AndroidManifest.xml:4:115-139
 	android:icon
 		ADDED from C:\Users\g1e2a\Documents\Androidstudio\Password_Generator\android\app\src\main\AndroidManifest.xml:4:18-47
 activity#processing.test.password_generator.MainActivity

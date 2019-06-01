@@ -4,11 +4,12 @@ import android.content.ClipData;
 import android.content.ClipboardManager;
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.ViewGroup;
+import android.widget.EditText;
 import android.widget.FrameLayout;
-
 import processing.android.CompatUtils;
 import processing.android.PFragment;
 import processing.core.PApplet;
@@ -21,11 +22,16 @@ public class MainActivity extends AppCompatActivity {
   private PApplet sketch;
   private static ClipboardManager myClipboard;
   private static ClipData myClip;
+  public static String state;
 
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
+    //added in v1.12=========================================================
+    SharedPreferences mPrefs = getSharedPreferences("label", 0);
+    state = mPrefs.getString("Switch", "1");
+    //=======================================================================
     FrameLayout frame = new FrameLayout(this);
     frame.setId(CompatUtils.getUniqueViewId());
     myClipboard = (ClipboardManager)getSystemService(CLIPBOARD_SERVICE);
@@ -66,15 +72,31 @@ public class MainActivity extends AppCompatActivity {
   
   @Override
   public void onBackPressed() {
+    //added in v1.12============================================================
+    SharedPreferences mPrefs = getSharedPreferences("label", 0);
+    SharedPreferences.Editor mEditor = mPrefs.edit();
+    mEditor.putString("Switch", state).apply();
     if (sketch != null) {
       sketch.onBackPressed();
     }
   }
 
+  //added in v1.12============================================================
+  @Override
+  protected void onPause(){
+    super.onPause();
+    SharedPreferences mPrefs = getSharedPreferences("label", 0);
+    SharedPreferences.Editor mEditor = mPrefs.edit();
+    mEditor.putString("Switch", state).apply();
+  }
 
   @Override
   protected void onDestroy() {
     super.onDestroy();
+    //added in v1.12============================================================
+      SharedPreferences mPrefs = getSharedPreferences("label", 0);
+      SharedPreferences.Editor mEditor = mPrefs.edit();
+      mEditor.putString("Switch", state).apply();
     try {
       trimCache(this);
     } catch (Exception e) {

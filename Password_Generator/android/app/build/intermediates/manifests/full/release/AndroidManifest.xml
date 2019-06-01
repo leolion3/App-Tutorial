@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="processing.test.password_generator"
-    android:versionCode="21"
-    android:versionName="1.11" >
+    android:versionCode="61"
+    android:versionName="1.12" >
 
     <uses-sdk
         android:minSdkVersion="17"
@@ -10,7 +10,8 @@
 
     <application
         android:icon="@drawable/icon"
-        android:label="Free Password Generator - Random Password in Secs!" >
+        android:label="Free Password Generator - Random Password in Secs!"
+        android:largeHeap="true" >
         <activity
             android:name="processing.test.password_generator.MainActivity"
             android:screenOrientation="portrait"

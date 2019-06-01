@@ -6,8 +6,8 @@ android {
         applicationId "processing.test.password_generator"
         minSdkVersion 17
         targetSdkVersion 26
-        versionCode 21
-        versionName "1.11"
+        versionCode 61
+        versionName "1.12"
         vectorDrawables.useSupportLibrary = true
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }

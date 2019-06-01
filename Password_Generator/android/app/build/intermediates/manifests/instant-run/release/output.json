@@ -1,1 +1,1 @@
-[{"outputType":{"type":"INSTANT_RUN_MERGED_MANIFESTS"},"apkInfo":{"type":"MAIN","splits":[],"versionCode":21},"path":"AndroidManifest.xml","properties":{"packageId":"processing.test.password_generator","split":"","minSdkVersion":"17"}}]
+[{"outputType":{"type":"INSTANT_RUN_MERGED_MANIFESTS"},"apkInfo":{"type":"MAIN","splits":[],"versionCode":61},"path":"AndroidManifest.xml","properties":{"packageId":"processing.test.password_generator","split":"","minSdkVersion":"17"}}]
